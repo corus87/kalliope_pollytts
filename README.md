@@ -8,12 +8,12 @@ kalliope install --git-url https://github.com/corus87/kalliope_pollytts.git
 
 ## Parameters
 
-| parameter             | required | type    | default   | Comment                                                                 |
-|---------------------- |----------|---------|-----------|-------------------------------------------------------------------------|
-| voice                 | No       | string  | Ivy       | https://docs.aws.amazon.com/polly/latest/dg/voicelist.html              |
-| aws_access_key_id     | Yes      | string  | None      | https://docs.aws.amazon.com/ses/latest/DeveloperGuide/get-aws-keys.html |
-| aws_secret_access_key | Yes      | string  | None      | https://docs.aws.amazon.com/ses/latest/DeveloperGuide/get-aws-keys.html |
-| region_name           | No       | string  | eu-west-2 | https://docs.aws.amazon.com/de_de/general/latest/gr/rande.html          |
+| parameter             | required | type   | default    | Comment |
+|-----------------------|----------|--------|------------|---------|
+| voice                 | No       | string | Ivy        | [Voicelist](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html) |
+| aws_access_key_id     | Yes      | string  | None      | [Get AWS keys](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/get-aws-keys.html) |
+| aws_secret_access_key | Yes      | string  | None      | [Get AWS keys](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/get-aws-keys.html) |
+| region_name           | No       | string  | eu-west-2 | [Regions](https://docs.aws.amazon.com/de_de/general/latest/gr/rande.html) |
 
 ## Example settings
 
