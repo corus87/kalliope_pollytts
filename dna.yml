@@ -1,0 +1,12 @@
+---
+  name: "pollytts"
+  type: "tts"
+  author: "Kalliope project team"
+
+  kalliope_supported_version:
+    - 0.5
+
+  tags:
+    - "pollytts"
+    - "aws"
+    - "tts"
