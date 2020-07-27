@@ -5,7 +5,8 @@
 
   kalliope_supported_version:
     - 0.5
-
+    - 0.6
+    - 0.7
   tags:
     - "pollytts"
     - "aws"
